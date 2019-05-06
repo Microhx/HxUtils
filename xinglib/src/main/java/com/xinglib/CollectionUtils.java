@@ -21,6 +21,16 @@ import java.util.*;
 public class CollectionUtils {
 
     /**
+     * return safely collection size , if collection is null and return 0
+     * @param collection target collection will be checked
+     * @return
+     */
+    public static int getCollectionSize(Collection<?> collection) {
+        return collectionExists(collection) ? collection.size() : 0 ;
+    }
+
+
+    /**
      * 集合是否存在 & 是否为空
      */
     public static boolean collectionExists(Collection<?> collection) {

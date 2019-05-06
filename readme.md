@@ -16,6 +16,8 @@ v0.0.9
 5. listConvertFloatArray  Collection<Float>转数组
 6. listConvertDoubleArray Collection<Double>转数组
 7. collectionFormat2String  Collection转化为数组
+8. getCollectionSize  返回Collection的长度
+
 
 ### TimeUtils
 v0.0.9
@@ -26,4 +28,12 @@ v0.0.9
 4. parseTimeByFormat  按照特定格式来格式化时间
 
 ### RegexUtils
+v0.0.9
 1.  isIdCard 身份证判断
+2.  isMobileNo 判断
+
+### FileUtils
+v0.0.9
+1. getFolderSize  获取文件大小
+2. formatFileSize  格式化文件大小
+3. createFile       创建文件
